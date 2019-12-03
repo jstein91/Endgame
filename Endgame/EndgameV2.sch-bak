@@ -86,10 +86,6 @@ F 3 "~" H 1250 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1750 4250 1350 4250
-Wire Wire Line
-	1750 4350 1350 4350
-Wire Wire Line
 	1150 4250 850  4250
 Wire Wire Line
 	1150 4350 850  4350
@@ -2697,9 +2693,9 @@ Text GLabel 2950 4950 2    50   Input ~ 0
 ROW2
 Wire Wire Line
 	1350 3250 1750 3250
-Text GLabel 2950 4650 2    50   Input ~ 0
+Text GLabel 2950 3250 2    50   Input ~ 0
 ROW3
-Text GLabel 2950 4450 2    50   Input ~ 0
+Text GLabel 2950 4650 2    50   Input ~ 0
 ROW4
 Text GLabel 2950 5650 2    50   Input ~ 0
 COL6
@@ -2750,4 +2746,12 @@ Text GLabel 2950 5050 2    50   Input ~ 0
 COL11
 Text GLabel 2950 4850 2    50   Input ~ 0
 COL12
+Text GLabel 2950 4550 2    50   Input ~ 0
+SDA
+Text GLabel 2950 4450 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	1350 4250 1750 4250
+Wire Wire Line
+	1350 4350 1750 4350
 $EndSCHEMATC

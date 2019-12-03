@@ -86,10 +86,6 @@ F 3 "~" H 1250 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1750 4250 1350 4250
-Wire Wire Line
-	1750 4350 1350 4350
-Wire Wire Line
 	1150 4250 850  4250
 Wire Wire Line
 	1150 4350 850  4350
@@ -2500,19 +2496,6 @@ F 3 "" H 8250 4700 50  0001 C CNN
 	1    8250 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0117
-U 1 1 5DDA4B66
-P 8050 4800
-F 0 "#PWR0117" H 8050 4650 50  0001 C CNN
-F 1 "VCC" H 8067 4973 50  0000 C CNN
-F 2 "" H 8050 4800 50  0001 C CNN
-F 3 "" H 8050 4800 50  0001 C CNN
-	1    8050 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 4800 8500 4800
 Text GLabel 8500 4900 0    50   Input ~ 0
 SCL
 Text GLabel 8500 5000 0    50   Input ~ 0
@@ -2754,4 +2737,21 @@ Text GLabel 2950 4550 2    50   Input ~ 0
 SDA
 Text GLabel 2950 4450 2    50   Input ~ 0
 SCL
+Wire Wire Line
+	1350 4250 1750 4250
+Wire Wire Line
+	1350 4350 1750 4350
+$Comp
+L power:+5V #PWR?
+U 1 1 5DF42376
+P 8100 4800
+F 0 "#PWR?" H 8100 4650 50  0001 C CNN
+F 1 "+5V" H 8115 4973 50  0000 C CNN
+F 2 "" H 8100 4800 50  0001 C CNN
+F 3 "" H 8100 4800 50  0001 C CNN
+	1    8100 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4800 8500 4800
 $EndSCHEMATC
