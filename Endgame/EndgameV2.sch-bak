@@ -2829,4 +2829,6 @@ Text GLabel 2950 3450 2    50   Input ~ 0
 MOSI
 Text GLabel 2950 3550 2    50   Input ~ 0
 MISO
+Text GLabel 1350 3250 1    50   Input ~ 0
+RST
 $EndSCHEMATC
