@@ -2362,15 +2362,15 @@ Text GLabel 4000 900  1    50   Input ~ 0
 COL0
 Text GLabel 4500 900  1    50   Input ~ 0
 COL1
-Text GLabel 3400 1600 0    50   Input ~ 0
+Text GLabel 3400 1600 1    50   Input ~ 0
 ROW0
-Text GLabel 3400 2250 0    50   Input ~ 0
+Text GLabel 3400 2250 1    50   Input ~ 0
 ROW1
-Text GLabel 3400 2900 0    50   Input ~ 0
+Text GLabel 3400 2900 1    50   Input ~ 0
 ROW2
-Text GLabel 3400 3550 0    50   Input ~ 0
+Text GLabel 3400 3550 1    50   Input ~ 0
 ROW3
-Text GLabel 3400 4200 0    50   Input ~ 0
+Text GLabel 3400 4200 1    50   Input ~ 0
 ROW4
 Text GLabel 5000 900  1    50   Input ~ 0
 COL2
@@ -2474,30 +2474,30 @@ EN2
 $Comp
 L EndgameV2-rescue:OLED-oled J1
 U 1 1 5DD5B4B8
-P 8700 4850
-F 0 "J1" H 8617 4475 50  0000 C CNN
-F 1 "OLED" H 8617 4566 50  0000 C CNN
-F 2 "Lily58-footprint:OLED_4Pin" H 8700 4850 50  0001 C CNN
-F 3 "" H 8700 4850 50  0000 C CNN
-	1    8700 4850
+P 10900 6050
+F 0 "J1" H 10817 5675 50  0000 C CNN
+F 1 "OLED" H 10817 5766 50  0000 C CNN
+F 2 "Lily58-footprint:OLED_4Pin" H 10900 6050 50  0001 C CNN
+F 3 "" H 10900 6050 50  0000 C CNN
+	1    10900 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 4700 8250 4700
+	10700 5900 10450 5900
 $Comp
 L EndgameV2-rescue:GND-gnd #PWR0116
 U 1 1 5DDA38A1
-P 8250 4700
-F 0 "#PWR0116" H 8250 4450 50  0001 C CNN
-F 1 "GND" H 8250 4789 50  0000 C CNN
-F 2 "" H 8250 4700 50  0001 C CNN
-F 3 "" H 8250 4700 50  0001 C CNN
-	1    8250 4700
+P 10450 5900
+F 0 "#PWR0116" H 10450 5650 50  0001 C CNN
+F 1 "GND" H 10450 5989 50  0000 C CNN
+F 2 "" H 10450 5900 50  0001 C CNN
+F 3 "" H 10450 5900 50  0001 C CNN
+	1    10450 5900
 	1    0    0    -1  
 $EndComp
-Text GLabel 8500 4900 0    50   Input ~ 0
+Text GLabel 10700 6100 0    50   Input ~ 0
 SCL
-Text GLabel 8500 5000 0    50   Input ~ 0
+Text GLabel 10700 6200 0    50   Input ~ 0
 SDA
 Wire Wire Line
 	4500 2500 4500 3150
@@ -2724,9 +2724,9 @@ F 3 "" H 850 5050 50  0001 C CNN
 $EndComp
 Text GLabel 2950 6050 2    50   Input ~ 0
 COL10
-Text GLabel 2950 3550 2    50   Input ~ 0
+Text GLabel 2950 5450 2    50   Input ~ 0
 EN1
-Text GLabel 2950 3450 2    50   Input ~ 0
+Text GLabel 2950 3950 2    50   Input ~ 0
 EN2
 Text GLabel 2950 5050 2    50   Input ~ 0
 COL11
@@ -2743,16 +2743,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 5DF42376
-P 8100 4800
-F 0 "#PWR?" H 8100 4650 50  0001 C CNN
-F 1 "+5V" H 8115 4973 50  0000 C CNN
-F 2 "" H 8100 4800 50  0001 C CNN
-F 3 "" H 8100 4800 50  0001 C CNN
-	1    8100 4800
+P 10300 6000
+F 0 "#PWR?" H 10300 5850 50  0001 C CNN
+F 1 "+5V" H 10315 6173 50  0000 C CNN
+F 2 "" H 10300 6000 50  0001 C CNN
+F 3 "" H 10300 6000 50  0001 C CNN
+	1    10300 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 4800 8500 4800
+	10300 6000 10700 6000
 $Comp
 L Device:R_Small R?
 U 1 1 5DE94258
@@ -2782,4 +2782,53 @@ Wire Wire Line
 	1500 3100 1500 3250
 Wire Wire Line
 	1500 2900 1500 2750
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 5DF23484
+P 9400 5100
+F 0 "J?" H 9071 5196 50  0000 R CNN
+F 1 "AVR-ISP-6" H 9071 5105 50  0000 R CNN
+F 2 "" V 9150 5150 50  0001 C CNN
+F 3 " ~" H 8125 4550 50  0001 C CNN
+	1    9400 5100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 4900 2    50   Input ~ 0
+MISO
+Text GLabel 9800 5000 2    50   Input ~ 0
+MOSI
+Text GLabel 9800 5100 2    50   Input ~ 0
+SCK
+Text GLabel 9800 5200 2    50   Input ~ 0
+RST
+$Comp
+L power:+5V #PWR?
+U 1 1 5DF4285F
+P 9300 4600
+F 0 "#PWR?" H 9300 4450 50  0001 C CNN
+F 1 "+5V" H 9315 4773 50  0000 C CNN
+F 2 "" H 9300 4600 50  0001 C CNN
+F 3 "" H 9300 4600 50  0001 C CNN
+	1    9300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF44397
+P 9300 5500
+F 0 "#PWR?" H 9300 5250 50  0001 C CNN
+F 1 "GND" H 9305 5327 50  0000 C CNN
+F 2 "" H 9300 5500 50  0001 C CNN
+F 3 "" H 9300 5500 50  0001 C CNN
+	1    9300 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2950 3350 2    50   Input ~ 0
+SCK
+Text GLabel 2950 3450 2    50   Input ~ 0
+MOSI
+Text GLabel 2950 3550 2    50   Input ~ 0
+MISO
+Text GLabel 1350 3250 1    50   Input ~ 0
+RST
 $EndSCHEMATC
