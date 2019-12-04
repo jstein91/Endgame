@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:EndgameV2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
+L EndgameV2-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U1
 U 1 1 5DD383AE
 P 2350 4750
 F 0 "U1" H 2350 2861 50  0000 C CNN
@@ -51,7 +50,7 @@ $EndComp
 Wire Wire Line
 	3600 5350 3300 5350
 $Comp
-L keyboard_parts:SW_PUSH SW2
+L EndgameV2-rescue:SW_PUSH-keyboard_parts SW2
 U 1 1 5DD46873
 P 1050 3250
 F 0 "SW2" H 1050 3505 50  0000 C CNN
@@ -90,7 +89,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 4350 850  4350
 $Comp
-L keyboard_parts:C C3
+L EndgameV2-rescue:C-keyboard_parts C3
 U 1 1 5DD61FEF
 P 850 4750
 F 0 "C3" H 980 4796 50  0000 L CNN
@@ -105,7 +104,7 @@ Wire Wire Line
 Wire Wire Line
 	850  4950 850  5050
 $Comp
-L keyboard_parts:C C5
+L EndgameV2-rescue:C-keyboard_parts C5
 U 1 1 5DD63D46
 P 650 7300
 F 0 "C5" H 780 7346 50  0000 L CNN
@@ -116,7 +115,7 @@ F 3 "" H 650 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:C C6
+L EndgameV2-rescue:C-keyboard_parts C6
 U 1 1 5DD6624C
 P 1150 7300
 F 0 "C6" H 1280 7346 50  0000 L CNN
@@ -127,7 +126,7 @@ F 3 "" H 1150 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:C C7
+L EndgameV2-rescue:C-keyboard_parts C7
 U 1 1 5DD6667C
 P 1650 7300
 F 0 "C7" H 1780 7346 50  0000 L CNN
@@ -138,7 +137,7 @@ F 3 "" H 1650 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:C C8
+L EndgameV2-rescue:C-keyboard_parts C8
 U 1 1 5DD66A27
 P 2150 7300
 F 0 "C8" H 2280 7346 50  0000 L CNN
@@ -243,7 +242,7 @@ D+
 Text GLabel 850  4350 0    50   Input ~ 0
 D-
 $Comp
-L cpm43-cache:Type-C_HRO-TYPE-C-31-M-12 USB1
+L EndgameV2-rescue:Type-C_HRO-TYPE-C-31-M-12-cpm43-cache USB1
 U 1 1 5DDD58B2
 P 5100 6050
 F 0 "USB1" H 4933 6847 60  0000 C CNN
@@ -256,7 +255,7 @@ $EndComp
 Wire Wire Line
 	5200 5500 5700 5500
 $Comp
-L cpm43-cache:ai03-locallib_PRTR5V0U2X U2
+L EndgameV2-rescue:ai03-locallib_PRTR5V0U2X-cpm43-cache U2
 U 1 1 5DDF1AE7
 P 7600 6300
 F 0 "U2" H 7600 6597 60  0000 C CNN
@@ -281,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 7000 6200 7000
 $Comp
-L keyboard_parts:R R8
+L EndgameV2-rescue:R-keyboard_parts R8
 U 1 1 5DDFB5E2
 P 6450 7000
 F 0 "R8" V 6242 7000 50  0000 C CNN
@@ -298,7 +297,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 7250 6300 7250
 $Comp
-L keyboard_parts:R R9
+L EndgameV2-rescue:R-keyboard_parts R9
 U 1 1 5DDFE2B4
 P 6550 7250
 F 0 "R9" V 6342 7250 50  0000 C CNN
@@ -368,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 6700 5300 6700
 $Comp
-L keyboard_parts:R R7
+L EndgameV2-rescue:R-keyboard_parts R7
 U 1 1 5DE0D793
 P 5600 6700
 F 0 "R7" V 5392 6700 50  0000 C CNN
@@ -446,7 +445,7 @@ Connection ~ 6800 5750
 Wire Wire Line
 	6800 5750 6900 5750
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Esc1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Esc1
 U 1 1 5DD5793B
 P 3850 1250
 F 0 "S_Esc1" H 3883 1473 60  0000 C CNN
@@ -470,7 +469,7 @@ $EndComp
 Wire Wire Line
 	3650 1400 3800 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Tab1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Tab1
 U 1 1 5DD5CA73
 P 3850 1900
 F 0 "S_Tab1" H 3883 2123 60  0000 C CNN
@@ -494,7 +493,7 @@ $EndComp
 Wire Wire Line
 	3650 2050 3800 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Cap_Lk1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Cap_Lk1
 U 1 1 5DD64885
 P 3850 2550
 F 0 "S_Cap_Lk1" H 3883 2773 60  0000 C CNN
@@ -518,7 +517,7 @@ $EndComp
 Wire Wire Line
 	3650 2700 3800 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_L_Shift1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_L_Shift1
 U 1 1 5DD68C28
 P 3850 3200
 F 0 "S_L_Shift1" H 3883 3423 60  0000 C CNN
@@ -542,7 +541,7 @@ $EndComp
 Wire Wire Line
 	3650 3350 3800 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_L_CTRL1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_L_CTRL1
 U 1 1 5DD6D6DA
 P 3850 3850
 F 0 "S_L_CTRL1" H 3883 4073 60  0000 C CNN
@@ -566,7 +565,7 @@ $EndComp
 Wire Wire Line
 	3650 4000 3800 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_1
 U 1 1 5DD72B57
 P 4350 1250
 F 0 "S_1" H 4383 1473 60  0000 C CNN
@@ -590,7 +589,7 @@ $EndComp
 Wire Wire Line
 	4150 1400 4300 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Q1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Q1
 U 1 1 5DD72B6C
 P 4350 1900
 F 0 "S_Q1" H 4383 2123 60  0000 C CNN
@@ -614,7 +613,7 @@ $EndComp
 Wire Wire Line
 	4150 2050 4300 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_A1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_A1
 U 1 1 5DD72B81
 P 4350 2550
 F 0 "S_A1" H 4383 2773 60  0000 C CNN
@@ -638,7 +637,7 @@ $EndComp
 Wire Wire Line
 	4150 2700 4300 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_L_WIN1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_L_WIN1
 U 1 1 5DD72BAB
 P 4350 3850
 F 0 "S_L_WIN1" H 4383 4073 60  0000 C CNN
@@ -662,7 +661,7 @@ $EndComp
 Wire Wire Line
 	4150 4000 4300 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_2
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_2
 U 1 1 5DD7D122
 P 4850 1250
 F 0 "S_2" H 4883 1473 60  0000 C CNN
@@ -686,7 +685,7 @@ $EndComp
 Wire Wire Line
 	4650 1400 4800 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_W1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_W1
 U 1 1 5DD7D137
 P 4850 1900
 F 0 "S_W1" H 4883 2123 60  0000 C CNN
@@ -710,7 +709,7 @@ $EndComp
 Wire Wire Line
 	4650 2050 4800 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_S1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_S1
 U 1 1 5DD7D14C
 P 4850 2550
 F 0 "S_S1" H 4883 2773 60  0000 C CNN
@@ -734,7 +733,7 @@ $EndComp
 Wire Wire Line
 	4650 2700 4800 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_X1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_X1
 U 1 1 5DD7D161
 P 4850 3200
 F 0 "S_X1" H 4883 3423 60  0000 C CNN
@@ -758,7 +757,7 @@ $EndComp
 Wire Wire Line
 	4650 3350 4800 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_L_ALT1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_L_ALT1
 U 1 1 5DD7D176
 P 4850 3850
 F 0 "S_L_ALT1" H 4883 4073 60  0000 C CNN
@@ -782,7 +781,7 @@ $EndComp
 Wire Wire Line
 	4650 4000 4800 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_3
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_3
 U 1 1 5DD7D18B
 P 5350 1250
 F 0 "S_3" H 5383 1473 60  0000 C CNN
@@ -806,7 +805,7 @@ $EndComp
 Wire Wire Line
 	5150 1400 5300 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_E1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_E1
 U 1 1 5DD7D1A0
 P 5350 1900
 F 0 "S_E1" H 5383 2123 60  0000 C CNN
@@ -830,7 +829,7 @@ $EndComp
 Wire Wire Line
 	5150 2050 5300 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_D1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_D1
 U 1 1 5DD7D1B5
 P 5350 2550
 F 0 "S_D1" H 5383 2773 60  0000 C CNN
@@ -854,7 +853,7 @@ $EndComp
 Wire Wire Line
 	5150 2700 5300 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_C1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_C1
 U 1 1 5DD7D1CA
 P 5350 3200
 F 0 "S_C1" H 5383 3423 60  0000 C CNN
@@ -878,7 +877,7 @@ $EndComp
 Wire Wire Line
 	5150 3350 5300 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_4
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_4
 U 1 1 5DD96709
 P 5850 1250
 F 0 "S_4" H 5883 1473 60  0000 C CNN
@@ -902,7 +901,7 @@ $EndComp
 Wire Wire Line
 	5650 1400 5800 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_R1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_R1
 U 1 1 5DD9671E
 P 5850 1900
 F 0 "S_R1" H 5883 2123 60  0000 C CNN
@@ -926,7 +925,7 @@ $EndComp
 Wire Wire Line
 	5650 2050 5800 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_F1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_F1
 U 1 1 5DD96733
 P 5850 2550
 F 0 "S_F1" H 5883 2773 60  0000 C CNN
@@ -950,7 +949,7 @@ $EndComp
 Wire Wire Line
 	5650 2700 5800 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_V1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_V1
 U 1 1 5DD96748
 P 5850 3200
 F 0 "S_V1" H 5883 3423 60  0000 C CNN
@@ -974,7 +973,7 @@ $EndComp
 Wire Wire Line
 	5650 3350 5800 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_5
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_5
 U 1 1 5DD96772
 P 6350 1250
 F 0 "S_5" H 6383 1473 60  0000 C CNN
@@ -998,7 +997,7 @@ $EndComp
 Wire Wire Line
 	6150 1400 6300 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_T1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_T1
 U 1 1 5DD96787
 P 6350 1900
 F 0 "S_T1" H 6383 2123 60  0000 C CNN
@@ -1022,7 +1021,7 @@ $EndComp
 Wire Wire Line
 	6150 2050 6300 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_G1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_G1
 U 1 1 5DD9679C
 P 6350 2550
 F 0 "S_G1" H 6383 2773 60  0000 C CNN
@@ -1046,7 +1045,7 @@ $EndComp
 Wire Wire Line
 	6150 2700 6300 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_B1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_B1
 U 1 1 5DD967B1
 P 6350 3200
 F 0 "S_B1" H 6383 3423 60  0000 C CNN
@@ -1070,7 +1069,7 @@ $EndComp
 Wire Wire Line
 	6150 3350 6300 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_6
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_6
 U 1 1 5DD967DB
 P 6850 1250
 F 0 "S_6" H 6883 1473 60  0000 C CNN
@@ -1094,7 +1093,7 @@ $EndComp
 Wire Wire Line
 	6650 1400 6800 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Y1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Y1
 U 1 1 5DD967F0
 P 6850 1900
 F 0 "S_Y1" H 6883 2123 60  0000 C CNN
@@ -1118,7 +1117,7 @@ $EndComp
 Wire Wire Line
 	6650 2050 6800 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_H1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_H1
 U 1 1 5DD96805
 P 6850 2550
 F 0 "S_H1" H 6883 2773 60  0000 C CNN
@@ -1142,7 +1141,7 @@ $EndComp
 Wire Wire Line
 	6650 2700 6800 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_N1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_N1
 U 1 1 5DD9681A
 P 6850 3200
 F 0 "S_N1" H 6883 3423 60  0000 C CNN
@@ -1166,7 +1165,7 @@ $EndComp
 Wire Wire Line
 	6650 3350 6800 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_SPACE1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_SPACE1
 U 1 1 5DD9682F
 P 6850 3850
 F 0 "S_SPACE1" H 6883 4073 60  0000 C CNN
@@ -1190,7 +1189,7 @@ $EndComp
 Wire Wire Line
 	6650 4000 6800 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_7
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_7
 U 1 1 5DD96844
 P 7350 1250
 F 0 "S_7" H 7383 1473 60  0000 C CNN
@@ -1214,7 +1213,7 @@ $EndComp
 Wire Wire Line
 	7150 1400 7300 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_U1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_U1
 U 1 1 5DD96859
 P 7350 1900
 F 0 "S_U1" H 7383 2123 60  0000 C CNN
@@ -1238,7 +1237,7 @@ $EndComp
 Wire Wire Line
 	7150 2050 7300 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_J1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_J1
 U 1 1 5DD9686E
 P 7350 2550
 F 0 "S_J1" H 7383 2773 60  0000 C CNN
@@ -1262,7 +1261,7 @@ $EndComp
 Wire Wire Line
 	7150 2700 7300 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_M1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_M1
 U 1 1 5DD96883
 P 7350 3200
 F 0 "S_M1" H 7383 3423 60  0000 C CNN
@@ -1286,7 +1285,7 @@ $EndComp
 Wire Wire Line
 	7150 3350 7300 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_8
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_8
 U 1 1 5DDB3E28
 P 7850 1250
 F 0 "S_8" H 7883 1473 60  0000 C CNN
@@ -1310,7 +1309,7 @@ $EndComp
 Wire Wire Line
 	7650 1400 7800 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_I1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_I1
 U 1 1 5DDB3E3D
 P 7850 1900
 F 0 "S_I1" H 7883 2123 60  0000 C CNN
@@ -1334,7 +1333,7 @@ $EndComp
 Wire Wire Line
 	7650 2050 7800 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_K1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_K1
 U 1 1 5DDB3E52
 P 7850 2550
 F 0 "S_K1" H 7883 2773 60  0000 C CNN
@@ -1358,7 +1357,7 @@ $EndComp
 Wire Wire Line
 	7650 2700 7800 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_,1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_,1
 U 1 1 5DDB3E67
 P 7850 3200
 F 0 "S_,1" H 7883 3423 60  0000 C CNN
@@ -1382,7 +1381,7 @@ $EndComp
 Wire Wire Line
 	7650 3350 7800 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_R_ALT1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_R_ALT1
 U 1 1 5DDB3E7C
 P 7850 3850
 F 0 "S_R_ALT1" H 7883 4073 60  0000 C CNN
@@ -1406,7 +1405,7 @@ $EndComp
 Wire Wire Line
 	7650 4000 7800 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_9
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_9
 U 1 1 5DDB3E91
 P 8350 1250
 F 0 "S_9" H 8383 1473 60  0000 C CNN
@@ -1430,7 +1429,7 @@ $EndComp
 Wire Wire Line
 	8150 1400 8300 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_O1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_O1
 U 1 1 5DDB3EA6
 P 8350 1900
 F 0 "S_O1" H 8383 2123 60  0000 C CNN
@@ -1454,7 +1453,7 @@ $EndComp
 Wire Wire Line
 	8150 2050 8300 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_L1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_L1
 U 1 1 5DDB3EBB
 P 8350 2550
 F 0 "S_L1" H 8383 2773 60  0000 C CNN
@@ -1478,7 +1477,7 @@ $EndComp
 Wire Wire Line
 	8150 2700 8300 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_.1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_.1
 U 1 1 5DDB3ED0
 P 8350 3200
 F 0 "S_.1" H 8383 3423 60  0000 C CNN
@@ -1502,7 +1501,7 @@ $EndComp
 Wire Wire Line
 	8150 3350 8300 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_R_FN1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_R_FN1
 U 1 1 5DDB3EE5
 P 8350 3850
 F 0 "S_R_FN1" H 8383 4073 60  0000 C CNN
@@ -1526,7 +1525,7 @@ $EndComp
 Wire Wire Line
 	8150 4000 8300 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_0
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_0
 U 1 1 5DDB3EFA
 P 8850 1250
 F 0 "S_0" H 8883 1473 60  0000 C CNN
@@ -1550,7 +1549,7 @@ $EndComp
 Wire Wire Line
 	8650 1400 8800 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_P1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_P1
 U 1 1 5DDB3F0F
 P 8850 1900
 F 0 "S_P1" H 8883 2123 60  0000 C CNN
@@ -1574,7 +1573,7 @@ $EndComp
 Wire Wire Line
 	8650 2050 8800 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_;1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_;1
 U 1 1 5DDB3F24
 P 8850 2550
 F 0 "S_;1" H 8883 2773 60  0000 C CNN
@@ -1598,7 +1597,7 @@ $EndComp
 Wire Wire Line
 	8650 2700 8800 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_10
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_10
 U 1 1 5DDB3F39
 P 8850 3200
 F 0 "S_10" H 8883 3423 60  0000 C CNN
@@ -1622,7 +1621,7 @@ $EndComp
 Wire Wire Line
 	8650 3350 8800 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_R_CTRL1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_R_CTRL1
 U 1 1 5DDB3F4E
 P 8850 3850
 F 0 "S_R_CTRL1" H 8883 4073 60  0000 C CNN
@@ -1646,7 +1645,7 @@ $EndComp
 Wire Wire Line
 	8650 4000 8800 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_-1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_-1
 U 1 1 5DDB3F63
 P 9350 1250
 F 0 "S_-1" H 9383 1473 60  0000 C CNN
@@ -1670,7 +1669,7 @@ $EndComp
 Wire Wire Line
 	9150 1400 9300 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_[1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_[1
 U 1 1 5DDB3F78
 P 9350 1900
 F 0 "S_[1" H 9383 2123 60  0000 C CNN
@@ -1694,7 +1693,7 @@ $EndComp
 Wire Wire Line
 	9150 2050 9300 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_"1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_"1
 U 1 1 5DDB3F8D
 P 9350 2550
 F 0 "S_\"1" H 9383 2773 60  0000 C CNN
@@ -1718,7 +1717,7 @@ $EndComp
 Wire Wire Line
 	9150 2700 9300 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_R_Shift1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_R_Shift1
 U 1 1 5DDB3FA2
 P 9350 3200
 F 0 "S_R_Shift1" H 9383 3423 60  0000 C CNN
@@ -1742,7 +1741,7 @@ $EndComp
 Wire Wire Line
 	9150 3350 9300 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_LEFT1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_LEFT1
 U 1 1 5DDB3FB7
 P 9350 3850
 F 0 "S_LEFT1" H 9383 4073 60  0000 C CNN
@@ -1766,7 +1765,7 @@ $EndComp
 Wire Wire Line
 	9150 4000 9300 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_+1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_+1
 U 1 1 5DDB3FCC
 P 9850 1250
 F 0 "S_+1" H 9883 1473 60  0000 C CNN
@@ -1790,7 +1789,7 @@ $EndComp
 Wire Wire Line
 	9650 1400 9800 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_]1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_]1
 U 1 1 5DDB3FE1
 P 9850 1900
 F 0 "S_]1" H 9883 2123 60  0000 C CNN
@@ -1814,7 +1813,7 @@ $EndComp
 Wire Wire Line
 	9650 2050 9800 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Ent1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Ent1
 U 1 1 5DDB3FF6
 P 9850 2550
 F 0 "S_Ent1" H 9883 2773 60  0000 C CNN
@@ -1838,7 +1837,7 @@ $EndComp
 Wire Wire Line
 	9650 2700 9800 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_UP1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_UP1
 U 1 1 5DDB400B
 P 9850 3200
 F 0 "S_UP1" H 9883 3423 60  0000 C CNN
@@ -1862,7 +1861,7 @@ $EndComp
 Wire Wire Line
 	9650 3350 9800 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_DOWN1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_DOWN1
 U 1 1 5DDB4020
 P 9850 3850
 F 0 "S_DOWN1" H 9883 4073 60  0000 C CNN
@@ -1886,7 +1885,7 @@ $EndComp
 Wire Wire Line
 	9650 4000 9800 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_BkSp1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_BkSp1
 U 1 1 5DDB4035
 P 10350 1250
 F 0 "S_BkSp1" H 10383 1473 60  0000 C CNN
@@ -1923,7 +1922,7 @@ $EndComp
 Wire Wire Line
 	10150 2050 10300 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Pg_Up1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Pg_Up1
 U 1 1 5DDB405F
 P 10850 1900
 F 0 "S_Pg_Up1" H 10883 2123 60  0000 C CNN
@@ -1947,7 +1946,7 @@ $EndComp
 Wire Wire Line
 	10650 2050 10800 2050
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Pg_Dn1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Pg_Dn1
 U 1 1 5DDB4074
 P 10350 3200
 F 0 "S_Pg_Dn1" H 10383 3423 60  0000 C CNN
@@ -1971,7 +1970,7 @@ $EndComp
 Wire Wire Line
 	10150 3350 10300 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_RIGHT1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_RIGHT1
 U 1 1 5DDB4089
 P 10350 3850
 F 0 "S_RIGHT1" H 10383 4073 60  0000 C CNN
@@ -2398,7 +2397,7 @@ COL12
 Text GLabel 10500 900  1    50   Input ~ 0
 COL13
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Del1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Del1
 U 1 1 5DD5B204
 P 10850 1250
 F 0 "S_Del1" H 10883 1473 60  0000 C CNN
@@ -2422,7 +2421,7 @@ $EndComp
 Wire Wire Line
 	10650 1400 10800 1400
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Ins1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Ins1
 U 1 1 5DD5B219
 P 10350 2550
 F 0 "S_Ins1" H 10383 2773 60  0000 C CNN
@@ -2473,7 +2472,7 @@ EN1
 Text GLabel 1500 1350 0    50   Input ~ 0
 EN2
 $Comp
-L oled:OLED J1
+L EndgameV2-rescue:OLED-oled J1
 U 1 1 5DD5B4B8
 P 8700 4850
 F 0 "J1" H 8617 4475 50  0000 C CNN
@@ -2486,7 +2485,7 @@ $EndComp
 Wire Wire Line
 	8500 4700 8250 4700
 $Comp
-L gnd:GND #PWR0116
+L EndgameV2-rescue:GND-gnd #PWR0116
 U 1 1 5DDA38A1
 P 8250 4700
 F 0 "#PWR0116" H 8250 4450 50  0001 C CNN
@@ -2503,7 +2502,7 @@ SDA
 Wire Wire Line
 	4500 2500 4500 3150
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_Z1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_Z1
 U 1 1 5DE15C05
 P 4350 3200
 F 0 "S_Z1" H 4383 3423 60  0000 C CNN
@@ -2679,7 +2678,7 @@ ROW1
 Text GLabel 2950 4950 2    50   Input ~ 0
 ROW2
 Wire Wire Line
-	1350 3250 1750 3250
+	1350 3250 1500 3250
 Text GLabel 2950 3250 2    50   Input ~ 0
 ROW3
 Text GLabel 2950 4650 2    50   Input ~ 0
@@ -2695,7 +2694,7 @@ COL9
 Connection ~ 9650 2900
 Connection ~ 10150 2250
 $Comp
-L MX_Alps_Hybrid:MX-NoLED S_For_Slash1
+L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_For_Slash1
 U 1 1 5DDB404A
 P 10350 1900
 F 0 "S_For_Slash1" H 10383 2123 60  0000 C CNN
@@ -2754,4 +2753,33 @@ F 3 "" H 8100 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8100 4800 8500 4800
+$Comp
+L Device:R_Small R?
+U 1 1 5DE94258
+P 1500 3000
+F 0 "R?" V 1304 3000 50  0000 C CNN
+F 1 "10k" V 1395 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1500 3000 50  0001 C CNN
+F 3 "~" H 1500 3000 50  0001 C CNN
+	1    1500 3000
+	-1   0    0    1   
+$EndComp
+Connection ~ 1500 3250
+Wire Wire Line
+	1500 3250 1750 3250
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE97BB7
+P 1500 2750
+F 0 "#PWR?" H 1500 2600 50  0001 C CNN
+F 1 "+5V" H 1515 2923 50  0000 C CNN
+F 2 "" H 1500 2750 50  0001 C CNN
+F 3 "" H 1500 2750 50  0001 C CNN
+	1    1500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3100 1500 3250
+Wire Wire Line
+	1500 2900 1500 2750
 $EndSCHEMATC
