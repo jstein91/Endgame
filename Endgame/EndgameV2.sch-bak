@@ -2845,10 +2845,10 @@ Wire Notes Line
 Text Notes 5950 7900 0    98   ~ 20
 ROTARY ENCODER
 Connection ~ 2300 1150
-Text Label 1700 5800 0    98   ~ 20
-GND
-Text Label 2150 6050 0    98   ~ 20
-VBUS
-Text Label 2200 7650 0    98   ~ 20
-SHIELD
+Text Label 1600 1450 0    98   ~ 20
+RST
+Text GLabel 1600 2450 1    50   Input ~ 0
+D+
+Text GLabel 1600 2550 3    50   Input ~ 0
+D-
 $EndSCHEMATC
