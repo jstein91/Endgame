@@ -2252,35 +2252,35 @@ F 3 "" H 6350 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 6200 4400 6200
-Text GLabel 3000 2450 2    50   Input ~ 0
+Text GLabel 3000 3650 2    50   Input ~ 0
 COL0
-Text GLabel 3000 2350 2    50   Input ~ 0
+Text GLabel 3000 3850 2    50   Input ~ 0
 COL1
-Text GLabel 3000 2050 2    50   Input ~ 0
+Text GLabel 3000 3950 2    50   Input ~ 0
 COL2
-Text GLabel 3000 1950 2    50   Input ~ 0
+Text GLabel 3000 4050 2    50   Input ~ 0
 COL3
-Text GLabel 3000 1850 2    50   Input ~ 0
+Text GLabel 3000 4150 2    50   Input ~ 0
 COL4
-Text GLabel 3000 3350 2    50   Input ~ 0
+Text GLabel 3000 4250 2    50   Input ~ 0
 COL5
-Text GLabel 3000 4350 2    50   Input ~ 0
+Text GLabel 3000 1450 2    50   Input ~ 0
 ROW0
-Text GLabel 3000 2950 2    50   Input ~ 0
+Text GLabel 3000 1850 2    50   Input ~ 0
 ROW1
 Text GLabel 3000 3150 2    50   Input ~ 0
 ROW2
 Wire Wire Line
 	1400 1450 1550 1450
-Text GLabel 3000 1450 2    50   Input ~ 0
+Text GLabel 3000 2050 2    50   Input ~ 0
 ROW3
 Text GLabel 3000 2850 2    50   Input ~ 0
 ROW4
-Text GLabel 3000 3850 2    50   Input ~ 0
+Text GLabel 3000 4350 2    50   Input ~ 0
 COL6
-Text GLabel 3000 3950 2    50   Input ~ 0
+Text GLabel 3000 2450 2    50   Input ~ 0
 COL7
-Text GLabel 3000 4050 2    50   Input ~ 0
+Text GLabel 3000 2350 2    50   Input ~ 0
 COL8
 $Comp
 L EndgameV2-rescue:MX-NoLED-MX_Alps_Hybrid S_For_Slash1
@@ -2304,7 +2304,7 @@ F 3 "" H 900 3250 50  0001 C CNN
 	1    900  3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 3000 3650 2    50   Input ~ 0
+Text GLabel 3000 3350 2    50   Input ~ 0
 EN1
 Text GLabel 3000 2150 2    50   Input ~ 0
 EN2
@@ -2847,8 +2847,5 @@ ROTARY ENCODER
 Connection ~ 2300 1150
 Text Label 1600 1450 0    98   ~ 20
 RST
-Text GLabel 1600 2450 1    50   Input ~ 0
-D+
-Text GLabel 1600 2550 3    50   Input ~ 0
-D-
+NoConn ~ 1800 2050
 $EndSCHEMATC
